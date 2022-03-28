@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="daniellukonis">
+    <title>Petri Dish</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <cite>daniel lukonis | petri dish</cite>
+    <div id="editor" class="editor-sleep">
+        <div id="editor-dropdown">
+            <h5>
+                open / close
+            </h5>
+        </div>
+        <ul>
+            <h3>Color</h3>
+            <li>
+                <label id="label-r" for="input-r" class="ranges">Red | 155</label>
+                <input class="range-slider" type="range" name="input-r" id="input-r" value = "125 min="0" max="255" step="5">
+            </li>
+            <li>
+                <label id="label-g" for="input-g" class="ranges">Green | 155</label>
+                <input class="range-slider" type="range" name="input-g" id="input-g" value = "125 min="0" max="255" step="5">
+
+            </li>
+            <li>
+                <label id="label-b" for="input-b" class="ranges">Blue | 155</label>
+                <input class="range-slider" type="range" name="input-b" id="input-b" value = "125 min="0" max="255" step="5">
+            </li>
+        </ul>
+    </div>
+    <canvas class="rotate"></canvas>
+</body>
+</html>
